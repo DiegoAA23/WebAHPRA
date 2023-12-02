@@ -3,7 +3,9 @@ import * as glob from 'glob';
 import path, { resolve } from 'node:path';
 import { ViteMinifyPlugin} from 'vite-plugin-minify'
 import htmlPurge from 'vite-plugin-purgecss';
+import handlebars from 'vite-plugin-handlebars';
 
+//import handlerBarsContext from './variables.js';
 export default defineConfig({
     base: "/WebAHPRA/",
     appType: 'mpa',
@@ -20,6 +22,10 @@ export default defineConfig({
         },
     },
     plugins: [
+        handlebars({
+            partialDirectory: resolve(__dirname, 'partials'),
+            //context: handlerBarsContext,
+        }),
         htmlPurge({}),
         ViteMinifyPlugin({}),
     ]
