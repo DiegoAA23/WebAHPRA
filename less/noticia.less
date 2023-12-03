@@ -1,0 +1,39 @@
+article {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 2;
+
+    p {
+        text-align: justify;
+    }
+
+    .image-container {
+        margin: 20px 0;
+        width: 350px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
+
+@media (min-width: 768px){
+    article {
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+            float: left;
+          
+            img {
+                width: 80%;
+                height: auto;
+                border-radius: 5px;
+            }
+        }
+    }
+    
+}

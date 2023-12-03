@@ -1,0 +1,32 @@
+<section class="info-general">
+    <div class="bienvenida">
+        {{#each bienvenida}}
+        <h2>{{title}}</h2>
+        <p>{{mensaje}}</p>
+        {{/each}}
+        {{#each imagen}}
+    </div>
+    <div>
+        <img src={{direccion}} alt={{alt}}>
+        {{/each}}
+    </div>
+</section>
+<hr class="division">
+<section class="noticias-seccion">
+    <h2>Últimas Noticias</h2>
+    <section class="noticias-inicio">
+        {{#each noticias}}
+        <div class="noticias-card">
+            <img width="300px" height="200px" src={{imagen}} alt="Imagen de la noticia">
+            <div class="content">
+                <h3>{{title}}</h3>
+                <p>{{texto}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </section>
+    <section class="mas-noticias">
+        <a href="blog.html">MÁS NOTICIAS</a>
+    </section>
+</section>
+<hr class="division">

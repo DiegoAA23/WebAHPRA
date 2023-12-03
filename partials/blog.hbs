@@ -1,0 +1,27 @@
+<h2>Noticias</h2>
+<div class="blog-contenedor">
+    <section class="blog-noticias">
+        {{#each noticias}}
+        <div class="blog-card">
+            <div class="img">
+                <img width="20px" src={{imagen}} alt="Imagen de la noticia">
+            </div>
+            <div class="content">
+                <h3>{{title}}</h3>
+                <p>{{texto}}</p>
+                <a href="noticiaej.html">Leer Más</a>
+            </div>
+        </div>
+        {{/each}}
+    </section>
+    <aside class="sidebar">
+        <h3>Más Artículos</h3>
+        {{#each side}}
+        <div class="articulo">
+            <img src={{imagen}} alt="Imagen de la noticia">
+            <a href="noticiaej.html">{{title}}</a>
+        </div>
+        {{/each}}
+    </aside>
+</div>
+<hr class="division">
