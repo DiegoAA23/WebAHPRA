@@ -8,14 +8,30 @@
 @nav-link-hover-color: #E4616F;
 @fondo-sidebar: #f2f2f2;
 @fondo-suave: #B8E5D0;
+@text-color: #786F9D;
+@gris: #ddd;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 @import "header.less";
 @import "footer.less";
 @import "home.less";
-@import "blog.less";
-@import "noticia.less";
+@import "ayuda.less";
+@import "programas.less";
+
+@size : {
+    phone: 380px;
+    tablet: 760px;
+    desktop: 1024px;
+    widescreen: 1200px;
+}
+
+@size-prf : {
+    phone: s;
+    tablet: m;
+    desktop: l;
+    widescreen: xl;
+}
 
 * {
     box-sizing: border-box;
@@ -32,3 +48,11 @@ body {
     padding: 0;
     margin: 0;
 }
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
