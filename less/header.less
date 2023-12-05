@@ -1,155 +1,155 @@
 .link-styles() {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: @nav-link-color;
-}
-
-header {
-  align-items: center;
-  background-color: @nav-bg-color;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem;
-  position: relative;
-
-  input[type="checkbox"] {
-    display: none;
-  }
-
-  .hamburger {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    height: 30px;
-    justify-content: space-between;
-    width: 30px;
-  }
-}
-
-header {
-  .hamburger {
-    .line {
-      background-color: @blanco;
-      height: 3px;
-      transition: all 0.3s ease-in-out;
-      width: @ancho;
-    }
-  }
-
-  .branding {
-    align-items: center;
-    color: @blanco;
-    display: flex;
-    flex: 1;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-left: 1rem;
-    text-align: center;
+    display: block;
+    padding: 10px 20px;
     text-decoration: none;
+    color: @nav-link-color;
+}
 
-    img {
-      border-radius: 50%;
-      height: 50px;
-      margin-right: 10px;
-      width: 50px;
-    }
-  }
-
-  nav {
-    align-items: flex-start;
+header {
+    align-items: center;
     background-color: @nav-bg-color;
     display: flex;
-    flex-direction: column;
-    height: 0;
-    justify-content: flex-start;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    transition: all 0.3s ease-in-out;
-    width: @ancho;
-    z-index: 100;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: relative;
 
-    ul {
-      align-items: flex-start;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      width: @ancho;
+    input[type="checkbox"] {
+        display: none;
+    }
 
-      li {
-        border-bottom: 1px solid @blanco;
-        width: @ancho;
+    .hamburger {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 30px;
+        justify-content: space-between;
+        width: 30px;
+    }
+}
 
-        a {
-          color: @nav-link-color;
-          display: block;
-          font-size: 1.2rem;
-          font-weight: 700;
-          padding: 1rem;
-          text-decoration: none;
-          transition: all 0.3s ease-in-out;
-
-          &:hover {
-            background-color: @nav-link-hover-color;
-          }
+header {
+    .hamburger {
+        .line {
+            background-color: @blanco;
+            height: 3px;
+            transition: all 0.3s ease-in-out;
+            width: @ancho;
         }
-      }
     }
-  }
 
-  #check {
-    &:checked~nav {
-      height: 560px;
+    .branding {
+        align-items: center;
+        color: @blanco;
+        display: flex;
+        flex: 1;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 1rem;
+        text-align: center;
+        text-decoration: none;
+
+        img {
+            border-radius: 50%;
+            height: 50px;
+            margin-right: 10px;
+            width: 50px;
+        }
     }
-  }
+
+    nav {
+        align-items: flex-start;
+        background-color: @nav-bg-color;
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        justify-content: flex-start;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 100%;
+        transition: all 0.3s ease-in-out;
+        width: @ancho;
+        z-index: 100;
+
+        ul {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: @ancho;
+
+            li {
+                border-bottom: 1px solid @blanco;
+                width: @ancho;
+
+                a {
+                    color: @nav-link-color;
+                    display: block;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    padding: 1rem;
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: @nav-link-hover-color;
+                    }
+                }
+            }
+        }
+    }
+
+    #check {
+        &:checked~nav {
+            height: 560px;
+        }
+    }
 }
 
 
 @media (min-width: 1300px) {
-  header {
-    height: 75px;
+    header {
+        height: 75px;
 
-    .hamburger {
-      display: none;
-    }
-
-    nav {
-      display: flex !important;
-      position: static;
-      justify-content: flex-end;
-      align-items: center;
-      background-color: transparent;
-      border: none;
-      height: auto;
-
-      ul {
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-
-        li {
-          border-bottom: none;
-          margin-left: 20px;
-
-          a {
-            font-size: 1rem;
-          }
+        .hamburger {
+            display: none;
         }
-      }
+
+        nav {
+            display: flex !important;
+            position: static;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: transparent;
+            border: none;
+            height: auto;
+
+            ul {
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+
+                li {
+                    border-bottom: none;
+                    margin-left: 20px;
+
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .branding {
+            margin-left: 0;
+            margin-right: 15px;
+        }
     }
 
-    .branding {
-      margin-left: 0;
-      margin-right: 15px;
+    #check {
+        display: none;
     }
-  }
-
-  #check {
-    display: none;
-  }
 }

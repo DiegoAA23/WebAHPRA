@@ -2,13 +2,13 @@ const paginas = [
     {title: "Home", direccion: "index.html"},
     {title: "About", direccion: "about.html"},
     {title: "Programas", direccion:"programas.html"},
-    {title: "Ayudar", direccion: "about.html"},
-    {title: "Galería", direccion: "about.html"},
+    {title: "Ayudar", direccion: "ayuda.html"},
+    {title: "Galería", direccion: "galeria.html"},
     {title: "Blog", direccion: "blog.html"},
-    {title: "Eventos", direccion: "about.html"},
-    {title: "Contacto", direccion: "about.html"},
-    {title: "Donaciones", direccion: "about.html"},
-    {title: "FAQ", direccion: "about.html"},
+    {title: "Eventos", direccion: "ayuda.html"},
+    {title: "Contacto", direccion: "ayuda.html"},
+    {title: "Donaciones", direccion: "ayuda.html"},
+    {title: "FAQ", direccion: "ayuda.html"},
 ]
 
 const bienvenida = [
@@ -57,6 +57,35 @@ const noticias_side = [
     {title: "No Compres Animales Silvestres", imagen: "https://scontent.ftgu3-3.fna.fbcdn.net/v/t1.6435-9/88089082_2774722452580924_2629753091737518080_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=kCvzto7UTOYAX8LCrAj&_nc_ht=scontent.ftgu3-3.fna&oh=00_AfBsiSY9xlEPMZA7jPvRoGwVRkygdPNg011BVjXr8LGmYA&oe=65942D76"},
     {title: "Dia Mundial del Vega- nismo", imagen: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t1.6435-9/73495259_2511348152251690_2246355779428810752_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=uooj8KGSEUMAX8gdejd&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfBVm1770zusC-rHEt9HtO427N4__WlGHLT2T0H8BCXWBw&oe=65943125"},
 ]
+const galeria1=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/288413935_5153911161328696_1882048875975549564_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGWPfCLXI_1ATUlAlcDIQqXIj4QaCW_l_siPhBoJb-X-2WsI45PjkLOGfBvtq_tLHVs4AeoAmF4w1GDUvDWFSl9&_nc_ohc=gSTXbJexiUsAX9_rBU1&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfCgINr8F-WFPczmL2eHns7R2dwjeyEQvTLYotFNK9KvGQ&oe=65728295", alt: "Imagen de un caballo"}
+    
+]
+
+const galeria2=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/290109038_5178630732190072_5358360652263562949_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEKDvKoMUlh3C4bKalvn7M7vFwrSbEtLE68XCtJsS0sToM_U-vWcuHIBgOdvj1C3_Knwwxkai_rn42gMzokLUPL&_nc_ohc=yN84E-LbiM8AX8V-kKc&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfDhzKhF_NjlWdTafVG94hzzcTW8MVbN9d16JUkb9uH2IA&oe=6572D7BF", alt: "Imagen del culpable"}
+    
+]
+
+const galeria3=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/290529538_5190432441009901_1615151122071813084_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHRRaxmPQMRK3wa0F1VsVBicD0XTghbqNhwPRdOCFuo2PYTfy1wad6P-tumSo8mxjHVZB8Uj53rXqMgobfTOC-V&_nc_ohc=VWx4UFkWL6EAX8WMYAF&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfAYkiptGqrqArg0HtA8Ej-INgkbwPDuPbNkUIKNwOixcQ&oe=6572FE45", alt: "Imagen de la ave nacional"}
+    
+]
+
+const galeria4=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/291637825_5220331444686667_2779721406285477860_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeF3ucUcFsKB0DkB9a5dk5doahHCAV9cR5lqEcIBX1xHme2nGZ695V5kuStsMkor4bZChBhvp7j64UYZ8DiI2GjB&_nc_ohc=1MWP9rBJaRYAX-Airlb&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfBonVuAQO3DsjisH9RBx37maYt2yByEVvbMJJCrtdqZkQ&oe=65733B78", alt: "Imagen de un caballo blanco"}
+    
+]
+
+const galeria5=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/293476242_5227536440632834_1170445624401114508_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFn-QE_a2EVJ-inEwu-s7ctd2fbrtwc_Xx3Z9uu3Bz9fNEvOkIEVjq0t45fhfvXevjTxtRoAlAAE8meDVYZJRDp&_nc_ohc=bCZwvNIr3MoAX_DMUk1&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfAlBXv5STD321LFSLmz2zUsapd-HXJmEPv7hFvuc_aoLw&oe=657241A5", alt: "Imagen de un perro"}
+    
+]
+
+const galeria6=[
+    {direccion: "https://scontent.ftgu1-3.fna.fbcdn.net/v/t39.30808-6/293566783_5228189443900867_7160781232024093048_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHW_S71_LdGQwmE4YKybD8ZobHuudVycP6hse651XJw_spYDsgiRKApYCKGdFyDBubaVwR_8yErXSDm3mYMiU67&_nc_ohc=pX0cYSaabfYAX_OZnbN&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfBJaCnQh-YRD0M-Sj8wCRBsugy0YlERyJbczfUpbtol8A&oe=6572EF1C", alt: "Imagen de un niño"}
+    
+]
 
 const handlerBarsContext = {
     "/index.html": {
@@ -77,6 +106,20 @@ const handlerBarsContext = {
     },
     "/noticiaej.html":{
         "paginas": paginas,
+    },
+    "/galeria.html":{
+        "title": "Galeria | Fundación AHPRA",
+        "paginas": paginas,
+        "galeria1": galeria1,
+        "galeria2": galeria2,
+        "galeria3": galeria3,
+        "galeria4": galeria4,
+        "galeria5": galeria5,
+        "galeria6": galeria6,
+    },
+    "/about.html":{
+        "paginas": paginas,
+        "title": "Acerca de | Fundación AHPRA",
     },
 }
 
