@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://static.wixstatic.com/media/5ec74a_f27fe03861894ed88cd3c32ebb7e19f4~mv2.png/v1/crop/x_25,y_56,w_429,h_387/fill/w_276,h_246,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20(3).png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./less/donacion.less">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.12.2/less.min.js"></script>
+     <!-- Iconos Para Footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Donaciones</title>
+  </head>
+  <body>
+      
+    <header>
+      {{> header}}
+    </header>
+
+    <main>
+        <div class="donation-section">
+            <h1>¡Ayuda a nuestros amigos peludos!</h1>
+            <p>Tu generosidad hace posible que sigamos cuidando y protegiendo a las mascotas sin hogar. ¡Donemos juntos!</p>
+            <div class="donation-form">
+                <label for="amount">Monto de la donación:</label>
+                <input type="number" id="amount" placeholder="Ingresa el monto en USD">
+                <button onclick="donate()">Donar</button>
+            </div>
+            <div class="confirmation-message" id="confirmationMessage"></div>
+        </div>
+        <script src="./javascript/donacion.js"></script>
+    </main>
+    
+    <footer>
+        {{> footer}}
+    </footer>
+    
+  </body>
+</html>

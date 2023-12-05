@@ -1,0 +1,93 @@
+@altura: 100%;
+@ancho: 100%;
+@negro: #000000;
+@blanco: #ffffff;
+@nav-bg-color: #009D5A;
+@nav-link-color: #fff;
+@nav-link-hover-color: #E4616F;
+@primary-color: #009D5A;
+@secondary-color: #B8E5D0;
+@background-color: #FDFDFD;
+@accent-color: #E4616F;
+@text-color: #786F9D;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import "header.less";
+@import "footer.less";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: @blanco;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.donation-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    color: @accent-color;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.donation-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: @accent-color;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: @primary-color;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darken(@primary-color, 10%);
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: @primary-color;
+}

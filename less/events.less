@@ -1,0 +1,59 @@
+@altura: 100%;
+@ancho: 100%;
+@negro: #000000;
+@blanco: #ffffff;
+@nav-bg-color: #009D5A;
+@nav-link-color: #fff;
+@nav-link-hover-color: #E4616F;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import "header.less";
+@import "footer.less";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: @blanco;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.event-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .event {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event img {
+    max-width: 100%;
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .event-section {
+      margin-top: 10px;
+    }
+  }
