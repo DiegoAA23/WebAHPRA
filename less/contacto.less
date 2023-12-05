@@ -1,0 +1,176 @@
+.form-soporte {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    label {
+        font-weight: bold;
+    }
+
+    .form {
+        .campo {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            label {
+                margin: 10px 0;
+            }
+
+            input,
+            select,
+            textarea {
+                border: 1px solid @negro;
+                resize: none;
+                width: 500px;
+                padding: 10px 5px;
+            }
+
+        }
+
+        #form-contacto {
+            #enviar {
+                padding: 15px;
+                border-radius: 15px;
+                border: none;
+                background-color: @nav-link-hover-color;
+                color: @blanco;
+                text-transform: uppercase;
+                font-size: bold;
+                margin: 20px;
+                font-weight: bold;
+
+                :hover {
+                    background-color: @nav-bg-color;
+                }
+            }
+        }
+    }
+}
+
+
+.redes-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .boton-facebook {
+        display: inline-block;
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        color: @blanco;
+        background-color: #3b5998;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 20px;
+
+        i {
+            margin-bottom: 10px;
+        }
+
+        .fab.fa-facebook-f:before {
+            content: "\f09a";
+        }
+    }
+
+    .boton-twitter {
+        display: inline-block;
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        color: @blanco;
+        background-color: #1da1f2;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 20px;
+
+        i {
+            margin-bottom: 10px;
+        }
+
+        .fab.fa-twitter:before {
+            content: "\f099";
+        }
+    }
+
+    .boton-linkedin {
+        display: inline-block;
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        color: @blanco;
+        background-color: #833ab4;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 20px;
+
+        i {
+            margin-bottom: 10px;
+        }
+
+        .fab.fa-linkedin.before {
+            content: "\f16d";
+        }
+    }
+}
+
+
+@media (max-width:767px) {
+    .form-soporte {
+        .form {
+            .campo {
+
+                input,
+                select,
+                textarea {
+                    width: 300px;
+                }
+
+            }
+        }
+    }
+
+    .redes-contacto{
+        .boton-facebook, .boton-linkedin, .boton-twitter {
+            width: 150px;
+            height: 100px;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .redes-contacto {
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.redh3 {
+    text-align: center;
+}
+
+
+.correo {
+    margin: 30px;
+    h3 {
+        text-align: center;
+    }
+    
+    p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
