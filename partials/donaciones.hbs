@@ -8,7 +8,18 @@
     </div>
     <div class="confirmation-message" id="confirmationMessage"></div>
 </div>
-
+<script>
+function donate() {
+    var amount = document.getElementById('amount').value;
+    var confirmationMessage = document.getElementById('confirmationMessage');
+    
+    if (amount > 0) {
+        confirmationMessage.innerHTML = '¡Gracias por tu donación de ' + amount + ' USD! 🐾';
+    } else {
+        confirmationMessage.innerHTML = 'Por favor, ingresa un monto válido.';
+    }
+}
+</script>
 <div class="donation-extra">
     <h2>Otras Formas de Donación</h2>
     <p>Agradeceremos su aporte a la cuenta a nombre de AHPRA en Banco del Pais, <span class="cuenta"># 21-308-000228-0.</span> <br> ¡Gracias!</p>
