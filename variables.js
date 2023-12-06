@@ -16,7 +16,7 @@ const bienvenida = [
 ]
 
 const imagen_inicio = [
-    { direccion: "https://i.imgur.com/eADon4x.jpg"}
+    { direccion: "https://i.imgur.com/eADon4x.jpg", alt: "Imagen promoviendo la adopcion animal"}
 ]
 
 const mision = [
