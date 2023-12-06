@@ -9,16 +9,29 @@ article {
     }
 
     .image-container {
-        margin: 20px 0;
-        width: 350px;
+        margin: 0;
+
         text-align: center;
 
         img {
-            width: 100%;
+            width: 70%;
         }
     }
+}
 
-
+.boton {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: @nav-link-hover-color;
+    color: @blanco;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 20px;
+    &:hover {
+        background-color: @nav-bg-color;
+    }
 }
 
 @media (min-width: 768px){

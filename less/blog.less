@@ -1,10 +1,3 @@
-h2 {
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 50px;
-}
-
 .blog-contenedor {
     display: flex;
     justify-content: center;
@@ -52,6 +45,10 @@ h2 {
                 color: @blanco;
                 margin-top: 20px;
                 padding: 0.5rem;
+
+                :hover{
+                    background-color: @nav-bg-color;
+                }
             }
         }
     }
@@ -94,11 +91,14 @@ h2 {
                         margin-bottom: 10px;
                     }
 
-                    a {
+                    .boton {
                         text-decoration: none;
                         color: @blanco;
                         background-color: @nav-link-hover-color;
                         margin-top: 10px;
+                        &:hover {
+                            background-color: @nav-bg-color;
+                        }
                     }
                 }
             }
@@ -144,6 +144,9 @@ h2 {
                     text-decoration: none;
                     color: @negro;
                     font-weight: bold;
+                    &:hover {
+                        background-color: @nav-bg-color;
+                    }
                 }
             }
         }

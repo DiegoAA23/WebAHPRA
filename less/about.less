@@ -1,0 +1,33 @@
+section {
+    &.max {
+        width: 300px;
+        margin: 0 auto;
+        line-height: 1.5;
+        margin-bottom: 40px;
+
+        h2 {
+            color: @negro;
+        }
+
+        p {
+            color: @negro;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    section {
+        &.max {
+            width: 600px;
+            text-align: justify;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        &.max {
+            width: 800px;
+        }
+    }
+}

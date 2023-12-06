@@ -1,0 +1,34 @@
+.titulo-galeria{
+    font-size: 2rem;
+}
+.card-container {
+    display: flex;
+    max-width:  @size[desktop];
+    margin: 1rem auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    .card {
+        width:490px;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        background-color: @fondo-suave;
+        box-shadow: 3px 3px 5px @fondo-sidebar;
+        border-radius: 5%;
+        .card-image {
+            width:100%;
+            height:490px;
+            img {
+                width:100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 5%;
+            }
+        }
+        .body {
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
