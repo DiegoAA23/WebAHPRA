@@ -27,15 +27,15 @@ const vision = [
 ]
 
 const noticias_inicio = [
-    { title: "Celebración - Dia Mundial de los Animales", texto: "Descubre como puedes apoyar la causa en este día tan importante y comparte el mensaje.", imagen: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/384112655_715765120593225_1286363251565292164_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=97x527zKjd8AX_qh7b7&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfA-6YbMZtHp8KfutPw9mP9WS7lsC4G81HtRgUAVrKONHA&oe=65704B1F" },
-    { title: "Inaugurada Primera Veterinaria Municipal", texto: "Un gran paso adelante para la integridad de los animales en Honduras.", imagen: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/358628123_672203621616042_2744548901035945361_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=TfqmLDk8ye8AX_Zw51Q&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfA41y6aFghZOdfhmM50B8yC_XOFDHboh2byuDMPFXJqAw&oe=6571B8A4" },
-    { title: "Jornadas de Alimentacion AHPRA", texto: "Los voluntarios de AHPRA en Jornadas de alimentación para animales sin hogar.", imagen: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/294133093_5240579019328576_561703918281812068_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=WK1WFXzZx-4AX_WrixZ&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfBC-zhWmL1MqrQuOdRKUblv6TxRGViC-pwAl1RATHw0Iw&oe=65708C1E" },
+    { title: "Celebración - Dia Mundial de los Animales", texto: "Descubre como puedes apoyar la causa en este día tan importante y comparte el mensaje.", imagen: "https://i.imgur.com/yGETJHo.jpg" },
+    { title: "Inaugurada Primera Veterinaria Municipal", texto: "Un gran paso adelante para la integridad de los animales en Honduras.", imagen: "https://i.imgur.com/cwiXZvh.jpg" },
+    { title: "Jornadas de Alimentacion AHPRA", texto: "Los voluntarios de AHPRA en Jornadas de alimentación para animales sin hogar.", imagen: "https://i.imgur.com/GEsmNnj.jpg" },
 ]
 
 const ejemplos = [
-    { imagen: "https://scontent.ftgu3-3.fna.fbcdn.net/v/t1.6435-9/95219600_2900065140046654_1431775413100609536_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=BipkpaB5TE0AX-K7SsW&_nc_ht=scontent.ftgu3-3.fna&oh=00_AfC272RFamo5Vy1r48aU-LmTKrnxjBXXNvzUweIxn2sgyQ&oe=659357B8", alt: "Imagen de un animal rescatado" },
-    { imagen: "https://estaticos-cdn.prensaiberica.es/clip/4d355f5c-3824-41ed-8be3-697466f6b34b_16-9-discover-aspect-ratio_default_0.jpg", alt: "Imagen de un animal rescatado" },
-    { imagen: "https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2018/07/22/5b5507da38812.r_1532317708443.0-0-1937-969.jpeg", alt: "Imagen de un animal rescatado" },
+    { imagen: "https://i.imgur.com/5xb8H1U.jpg", alt: "Imagen de un animal rescatado" },
+    { imagen: "https://i.imgur.com/wWWk6Zy.jpg", alt: "Imagen de un animal rescatado" },
+    { imagen: "https://i.imgur.com/n78XpIj.jpg", alt: "Imagen de un animal rescatado" },
 ]
 
 const noticias_blog = [
