@@ -1,14 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const preguntas = document.querySelectorAll('.pregunta');
+function toggleText(element) {
+    var texto = element.querySelector('.texto-oculto');
 
-    preguntas.forEach(pregunta => {
-        pregunta.addEventListener('click', function() {
-            toggleText(this);
-        });
-    });
-
-    function toggleText(element) {
-        const texto = element.querySelector('.texto-oculto');
-        texto.classList.toggle('mostrar');
+    if (window.getComputedStyle(texto).display === "none") {
+        texto.style.display = "block";
+    } else {
+        texto.style.display = "none";
     }
-});
+}
