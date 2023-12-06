@@ -16,7 +16,7 @@ const bienvenida = [
 ]
 
 const imagen_inicio = [
-    { direccion: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/395442735_733095595526844_3576882319700970476_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=7yS4JJDTREEAX_E5d6t&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfAZHi2uZOb_gqFr_VHBc6Pm1eicjzVmJVsXpQ8-5XjEvQ&oe=656FD186", alt: "Imagen promoviendo la adopcion animal" }
+    { direccion: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/395442735_733095595526844_3576882319700970476_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=VXoTpcIpSBwAX94OLFX&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfBJJ4Jg9XUV_dmRLQaB6DR098ntPk9A18clmDmEdPh3Jg&oe=6575C046"}
 ]
 
 const mision = [
