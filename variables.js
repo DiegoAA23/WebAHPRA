@@ -16,7 +16,7 @@ const bienvenida = [
 ]
 
 const imagen_inicio = [
-    { direccion: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t39.30808-6/395442735_733095595526844_3576882319700970476_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=VXoTpcIpSBwAX94OLFX&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfBJJ4Jg9XUV_dmRLQaB6DR098ntPk9A18clmDmEdPh3Jg&oe=6575C046"}
+    { direccion: "https://i.imgur.com/eADon4x.jpg"}
 ]
 
 const mision = [
