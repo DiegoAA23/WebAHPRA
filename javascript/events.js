@@ -4,28 +4,28 @@ const eventsData = [
       date: '2023-12-10',
       location: 'Todas las cabeceras departamentales de País',
       description: 'Se estaran vacunando cachorros con las vacunas esenciales para los perros que protegen de moquillo, parvovirosis, hepatitis vírica canina, rabia.',
-      image: 'https://github.com/DiegoAA23/WebAHPRA/blob/main/img/vacunasperro.jpg?raw=true',
+      image: 'https://i.imgur.com/SBNJfWi.jpg',
     },
     {
       name: 'Vacunacion gratuita para gatos',
       date: '2023-12-15',
       location: 'Todas las cabeceras departamentales de País',
       description: 'Moquillo (panleucopenia), Gripe felina (rinotraqueítis: infección por calicivirus o herpesvirus), Leucemia felina (leucosis Peritonitis infecciosa felina (PIF), Rabia.',
-      image: 'https://github.com/DiegoAA23/WebAHPRA/blob/main/img/vacunagatos.jpg?raw=true', 
+      image: 'https://i.imgur.com/YmwfJ7u.jpg', 
     },
     {
       name: 'Vacunacion nacional de Ganado',
       date: '2023-12-20',
       location: 'Todas las cabeceras departamentales de País',
       description: 'Rinotraqueitis infecciosa bovina (IBR), Virus respiratorio sincitial bovino (VRSB), Diarrea viral bovina (DVB), Parainfluenza 3 (PI3), Mannheimia haemolytica, Pasteurella multocida, Histophilus somni.',
-      image: 'https://github.com/DiegoAA23/WebAHPRA/blob/main/img/vacunaganado.jpg?raw=true', 
+      image: 'https://i.imgur.com/9PKwZPd.jpg', 
     },
     {
       name: 'Esterilización de Perros y Gatos',
       date: '2023-12-21',
       location: 'Todas las cabeceras departamentales de País',
       description: 'Se estarán castrando mascotas por un costo bajo para controlar la sobreproblación.',
-      image: 'https://github.com/DiegoAA23/WebAHPRA/blob/main/img/castracion.png?raw=true', 
+      image: 'https://i.imgur.com/oM6xsgl.png', 
     },
   ];
   
