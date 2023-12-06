@@ -6,4 +6,6 @@ function toggleText(element) {
     } else {
         texto.style.display = "none";
     }
+    console.log('Hola, esto es un mensaje de registro en la consola');
+
 }
