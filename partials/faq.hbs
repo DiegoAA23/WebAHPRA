@@ -1,6 +1,6 @@
 <h2>Preguntas Frecuentes</h2>
 {{#each preguntas}}
-<div class="contenedor pregunta">
+<div class="contenedor" onclick="toggleText(this)">
     <h3>{{title}} <i class="fas fa-chevron-down"></i></h3>
     <p class="texto-oculto">{{respuesta}}</p>
 </div>
