@@ -100,9 +100,9 @@ const preguntas = [
 ]
 
 const ayuda = [
-    {title: "Apoyo de Actividades", texto:"Constantemente realizamos actividades para recaudar fondos y concientizar, al participar en ellas nos ayudas muchisimo a difundir el mensaje." ,imagen: "https://scontent.ftgu3-3.fna.fbcdn.net/v/t1.6435-9/71187726_2441774345875738_3781081876442120192_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=LF9AtO9n88YAX8PoFSQ&_nc_ht=scontent.ftgu3-3.fna&oh=00_AfC2qwYb6hbGp-afeaywZXOOfozxopy8w4hL_wd-G8jjBw&oe=65963159", alt:"Actividad en apoyo"},
-    {title: "Voluntariado", texto:"Estamos abiertos a recibir voluntarios ¡una mano ayudadora nunca está de más! Agradeceremos tu colaboración." ,imagen: "https://scontent.ftgu3-4.fna.fbcdn.net/v/t1.6435-9/124580860_3431881100198386_4488932607239623233_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=yC8R0syiOSEAX8yLzuu&_nc_ht=scontent.ftgu3-4.fna&oh=00_AfAM1e_v8CmFrH3SxwDtBU4NWxVSZpySl4KohFXeL1z5yA&oe=6595FB46", alt: "Imagen de un voluntario de la ONG"},
-    {title: "Donaciones", texto:"Puedes realizar aportaciones monetarias que nos ayudan directamente a mejorar las instalaciones, comprar alimento y medicamentos, ademas de organizar diversas actividades. ¡Por favor considera donar!" ,imagen: "https://eacnur.org/sites/default/files/styles/hero_mobile/public/donacion-de-dinero.jpg?h=140710cd&itok=O2NiBde8", alt:"Donaciones monetarias"},
+    {title: "Apoyo de Actividades", texto:"Constantemente realizamos actividades para recaudar fondos y concientizar, al participar en ellas nos ayudas muchisimo a difundir el mensaje." ,imagen: "https://i.imgur.com/Kbt11hO.jpg", alt:"Actividad en apoyo"},
+    {title: "Voluntariado", texto:"Estamos abiertos a recibir voluntarios ¡una mano ayudadora nunca está de más! Agradeceremos tu colaboración." ,imagen: "https://i.imgur.com/pFpQhjL.jpg", alt: "Imagen de un voluntario de la ONG"},
+    {title: "Donaciones", texto:"Puedes realizar aportaciones monetarias que nos ayudan directamente a mejorar las instalaciones, comprar alimento y medicamentos, ademas de organizar diversas actividades. ¡Por favor considera donar!" ,imagen: "https://i.imgur.com/RjXT7i8.jpg", alt:"Donaciones monetarias"},
 ]
 
 const programas = [
